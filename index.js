@@ -7,9 +7,9 @@ const random = Math.floor(Math.random() * 10) + 1;
 console.log(random);
 
 let num3 = 12;
-let num4 = 3;
+let num4 = 4;
 
-const mod = num3 / num4;
+const mod = num4 % num3;
 console.log(mod);
 
 const max = Math.max(2, 4, 6, 8, 10, 12, 14, 16, 18, 20);
